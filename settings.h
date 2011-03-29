@@ -66,11 +66,11 @@ void settings_store_setting(int parameter, double value);
 #define DEFAULT_Z_STEPS_PER_MM (400.0 * 20.0 / 25.4)
 #define DEFAULT_STEP_PULSE_MICROSECONDS 30
 #define DEFAULT_MM_PER_ARC_SEGMENT 0.1
-#define DEFAULT_RAPID_FEEDRATE 250.0 // in millimeters per minute
-#define DEFAULT_FEEDRATE 250.0
+#define DEFAULT_RAPID_FEEDRATE 225.0 // in millimeters per minute
+#define DEFAULT_FEEDRATE 225.0
 //#define DEFAULT_ACCELERATION (DEFAULT_FEEDRATE/100.0)
 #define DEFAULT_ACCELERATION (3.0)
-#define DEFAULT_MAX_JERK 100.0
+#define DEFAULT_MAX_JERK 225.0
 #define DEFAULT_STEPPING_INVERT_MASK 0
 
 #endif
