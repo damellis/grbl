@@ -25,7 +25,8 @@ if ARGV.empty?
 end
 
 # SerialPort.open('/dev/tty.FireFly-A964-SPP-1', 115200) do |sp|
-SerialPort.open('/dev/tty.usbserial-A700e0GO', 9600) do |sp|
+SerialPort.open('/dev/tty.usbmodem411', 9600) do |sp|
+  sleep 4
   sp.write("\r\n\r\n");
   sleep 1
   ARGV.each do |file|
