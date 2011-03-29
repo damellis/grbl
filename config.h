@@ -33,10 +33,10 @@
 #define STEPPING_DDR       DDRD
 #define STEPPING_PORT      PORTD
 #define X_STEP_BIT           2
-#define Y_STEP_BIT           3
-#define Z_STEP_BIT           4
-#define X_DIRECTION_BIT      5
-#define Y_DIRECTION_BIT      6
+#define Y_STEP_BIT           4
+#define Z_STEP_BIT           6
+#define X_DIRECTION_BIT      3
+#define Y_DIRECTION_BIT      5
 #define Z_DIRECTION_BIT      7
 
 #define LIMIT_DDR      DDRB
