@@ -30,7 +30,7 @@
 DEVICE     = atmega328p
 CLOCK      = 16000000
 #PROGRAMMER = -c avrispmkii -P usb
-PROGRAMMER = -c stk500v1 -P /dev/tty.usbmodem* -b 115200
+PROGRAMMER = -c stk500v1 -P /dev/tty.usb* -b 115200
 OBJECTS    = main.o motion_control.o gcode.o spindle_control.o wiring_serial.o serial_protocol.o stepper.o \
              eeprom.o settings.o planner.o
 # FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x24:m
