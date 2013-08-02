@@ -27,6 +27,7 @@
 #                is connected.
 # FUSES ........ Parameters for avrdude to flash the fuses appropriately.
 
+CC	   = /usr/bin/gcc-4.4
 DEVICE     = atmega328p
 CLOCK      = 16000000
 #PROGRAMMER = -c avrispmkii -P usb
