@@ -1,5 +1,5 @@
 /*
-  serial_protocol.h - the serial protocol master control unit
+  limits.h - code pertaining to limit-switches and performing the homing cycle
   Part of Grbl
 
   Copyright (c) 2009-2011 Simen Svale Skogsrud
@@ -17,14 +17,14 @@
   You should have received a copy of the GNU General Public License
   along with Grbl.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef serial_h
-#define serial_h
 
-// Initialize the serial protocol
-void sp_init();
+#ifndef limits_h
+#define limits_h 
 
-// Read command lines from the serial port and execute them as they
-// come in. Blocks until the serial buffer is emptied. 
-void sp_process();
+// initialize the limits module
+void limits_init();
+
+// perform the homing cycle
+void limits_go_home();
 
 #endif
